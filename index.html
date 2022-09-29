@@ -13,8 +13,6 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload landing">
-		<div class="vanta-bg">
-		</div>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -43,6 +41,28 @@
 				
 					<section id="banner">
 					<div class="content">
+						<!-- <nodes.js embedding> -->
+						<script type="text/javascript" src="js/nodes.js"></script>
+						<script type="text/javascript">
+						    var nodesjs = new NodesJs({
+						        id: 'nodes',
+						        width: window.innerWidth,
+						        height: window.innerHeight,
+						        particleSize: 2,
+						        lineSize: 1,
+						        particleColor: [255, 255, 255, 0.3],
+						        lineColor: [255, 255, 255],
+						        backgroundFrom: [10, 25, 100],
+						        backgroundTo: [25, 50, 150],
+						        backgroundDuration: 4000,
+						        nobg: false,
+						        number: window.hasOwnProperty('orientation') ? 30: 100,
+						        speed: 20,
+						        pointerCircleRadius: 150
+						    });
+						</script>
+						<canvas id="nodes"></canvas>
+						<!-- </nodes.js embedding> -->
 						<header>
 							<h2><b>Luca Costantin</b></h2>
 							<h3>Astrophysicist</h3>
@@ -107,24 +127,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/three.r134.min.js"></script>
-			<script src="assets/js/vanta.net.min.js"></script>
-			<script>
-			VANTA.NET({
-			  el: "#vanta-bg",
-			  mouseControls: true,
-			  touchControls: true,
-			  gyroControls: false,
-			  minHeight: 200.00,
-			  minWidth: 200.00,
-			  scale: 1.00,
-			  scaleMobile: 1.00,
-			  color: 0xeaedcd,
-			  points: 12.00,
-			  maxDistance: 21.00,
-			  spacing: 17.00
-			})
-			</script>
-
 	</body>
 </html>
