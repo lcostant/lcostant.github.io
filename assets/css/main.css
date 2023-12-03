@@ -3491,7 +3491,7 @@ input, select, textarea {
 			padding: 6em;
 			position: relative;
 			text-align: right;
-			vertical-align: middle;
+			vertical-align: top;
 			z-index: 1;
 		}
 
