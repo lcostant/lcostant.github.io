@@ -3456,7 +3456,7 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		min-height: 100vh;
+		min-height: 50vh;
 		position: relative;
 		text-align: center;
 		z-index: 21;
@@ -3465,7 +3465,7 @@ input, select, textarea {
 		#banner:before {
 			content: '';
 			display: inline-block;
-			height: 50vh;
+			height: 100vh;
 			vertical-align: middle;
 			width: 1%;
 		}
@@ -3477,7 +3477,7 @@ input, select, textarea {
 			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			content: '';
 			display: block;
-			height: 50%;
+			height: 100%;
 			left: 0;
 			position: absolute;
 			top: 0;
