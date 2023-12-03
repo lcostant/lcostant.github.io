@@ -3456,7 +3456,7 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		min-height: 100vh;
+		max-height: 50vh;
 		position: relative;
 		text-align: center;
 		z-index: 21;
@@ -3488,7 +3488,6 @@ input, select, textarea {
 			display: inline-block;
 			margin-right: 1%;
 			max-width: 95%;
-			max-height: 50%;
 			padding: 6em;
 			position: relative;
 			text-align: right;
