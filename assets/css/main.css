@@ -3465,7 +3465,7 @@ input, select, textarea {
 		#banner:before {
 			content: '';
 			display: inline-block;
-			height: 100vh;
+			height: 50vh;
 			vertical-align: middle;
 			width: 1%;
 		}
@@ -3481,13 +3481,13 @@ input, select, textarea {
 			left: 0;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			width: 95%;
 		}
 
 		#banner .content {
 			display: inline-block;
-			margin-right: 1%;
-			max-width: 95%;
+			margin-right: 5%;
+			max-width: 90%;
 			padding: 6em;
 			position: relative;
 			text-align: right;
