@@ -3456,7 +3456,8 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		min-height: 50vh;
+		min-height: 30vh;
+		max-height: 60vh;
 		position: relative;
 		text-align: center;
 		z-index: 21;
